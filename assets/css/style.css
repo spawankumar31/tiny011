@@ -1,0 +1,236 @@
+
+
+/*----------HeroImg section -------------*/
+
+
+
+.heroImg{
+	padding:75px 0 105px;
+	background-color:var(--color-primary);
+	
+}
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+a:link, a:visited{
+  text-decoration: none;
+}
+.mainHeader{
+	background-color:transparent;
+	border-color:transparent;
+}
+
+.mainHeader .navbar-nav>li>a{
+	color:var(--text-color-primary);
+	font-size:22px;
+	font-weight:bold;
+	text-transform:capitalize;
+}
+.inspiration{
+	margin-top:70px;
+}
+.brandList li{
+	display:inline-block;
+	margin-right:20px;
+}
+.brandList li a i{
+	color:var(--text-color-primary);  
+}
+
+/*--------------------section features css--------------*/
+
+
+.features{
+	padding:120px 0 80px 0;
+}
+
+.features .sec-heading{
+	margin-bottom:90px;
+}
+.ourThumbnail {
+	margin-bottom:90px;
+}
+
+
+
+
+.ourThumbnail h4{
+	margin:10px 0 15px;
+	font-size:22px;
+	color:var(--text-color-primary);
+}
+.ourThumbnail p{
+	color:var(--text-color-qurt);
+	font-size:16px;
+}
+
+
+/*----keepInTouch section starts-----*/
+
+.keepInTouch{
+	background-color:var(--text-color-primary);
+	padding:95px 0 140px;
+}
+.keepInTouch .pri-heading{
+	color:var(--color-primary);
+}
+.keepInTouch .sec-heading{
+	color:var(--text-color-qurt);
+	margin-bottom:45px;
+}
+.signIn{
+	margin-bottom:75px;
+}
+
+.signIn .email{
+	width:calc(100% - 175px);
+	height:50px;
+	display:inline-block;
+	margin-right:20px;
+	
+}
+.signIn .email::placeholder{
+	color:(text-color-qurt);
+}
+.signIn .btn{
+	height:50px;
+	width:150px;
+	background-color:var(--color-primary);
+	color:var(--text-color-primary);
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+
+.signIn .btn:hover,
+.signIn .btn:focus,
+.signIn .btn:active{
+	color:var(--color-primary);
+	background-color:var(--text-color-primary);
+	border:1px solid var(--color-primary);
+}
+.keepInTouch .brandList{
+	margin-bottom:135px;
+}
+
+.keepInTouch .brandList li a i{
+	color:var(--color-primary);
+}
+
+.footerLinks >li{
+	color:var(--color-white);
+	
+}
+
+.footerLinks a{
+	color:var(--color-white);
+	
+}
+
+
+@media all and (min-width:768px){
+	.mainHeader .navbar-brand{
+	    padding-top:0;
+		padding-bottom:0;
+   }
+   
+    .mainHeader{
+		margin-bottom:55px;
+	}
+	
+	.mainHeader .navbar-nav>li{
+		float:left;
+		margin-left:30px;
+	}
+	.ipad{
+		margin-left:80px;
+	}
+	.brandList li>a>i:hover{
+		transform:rotate(180deg);
+		transition:all 0.7s ease-in-out;
+
+	}
+}
+
+@media all and (max-width:600px){
+	.section{
+		padding:50px 0;
+	}
+	.mainHeader .navbar-brand{
+		padding:0 15px;
+	}
+	.mainHeader .navbar-toggle{
+		border-color:#010101;
+	}
+	.mainHeader .navbar-toggle .icon-bar{
+		background-color:#010101;
+	}
+	.inspiration{
+		margin:0 0 50px;
+	}
+	
+	.features .sec-heading{
+		margin-bottom:50px;
+	}
+	.ourThumbnail{
+		margin-bottom:20px;
+		
+	}
+	.signIn .email{
+		width:100%;
+		margin:0 0 20px;
+		
+	}
+	.signIn .btn{
+		width:100%;
+	}
+	.signIn{
+		margin-bottom:30px;
+	}
+	.keepInTouch .brandList{
+		margin-bottom:30px;
+	}
+}
+@media all and(max-width:600px){
+	.ipad{
+		width:100%;
+	}
+}
+
+/*--*-*--*-* --- -* --utility css--*---*---*---*/
+
+
+
+ul{
+	list-style:none;
+	padding:0;
+	
+}
+
+a:link,a:visited{
+	text-decoration:none;
+}
+
+
+.pri-heading{
+	font-size:32px;
+	font-weight: bold;
+	color:var(--text-color-primary);
+    margin-bottom:20px;
+}
+
+.sec-heading{
+	font-size:20px;
+	font-weight: normal;
+	color:var(--text-color-sec);
+	margin-bottom:20px;
+}
+
+.para{
+	font-size:16px;
+	font-weight: normal;
+	color:var(--text-color-tri);
+	margin-bottom:30px;
+}
